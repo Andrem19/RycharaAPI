@@ -12,6 +12,7 @@
     <Folder Include="Controllers\" />
     <Folder Include="RycharaLuckyBot\LoggerDB\" />
     <Folder Include="RycharaLuckyBot\InsuranceClose\" />
+    <Folder Include="RycharaLuckyBot\GetKlines\" />
     <Folder Include="RycharaLuckyBot\OrdersLogic\" />
     <Folder Include="RycharaLuckyBot\UniversalTradingCommand\" />
     <Folder Include="RycharaLuckyBot\Signals\" />
