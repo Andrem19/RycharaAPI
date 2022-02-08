@@ -10,6 +10,13 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="RycharaLuckyBot\LoggerDB\" />
+    <Folder Include="RycharaLuckyBot\InsuranceClose\" />
+    <Folder Include="RycharaLuckyBot\OrdersLogic\" />
+    <Folder Include="RycharaLuckyBot\UniversalTradingCommand\" />
+    <Folder Include="RycharaLuckyBot\Signals\" />
+    <Folder Include="RycharaLuckyBot\TelegramWorker\" />
+    <Folder Include="wwwroot\" />
     <Folder Include="RycharaLuckyBot\ExchangesAPI\Binance\" />
     <Folder Include="RycharaLuckyBot\ExchangesAPI\ByBit\" />
   </ItemGroup>
