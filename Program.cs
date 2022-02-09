@@ -22,7 +22,7 @@ namespace RycharaAPI
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                }).ConfigureServices(services =>
-                services.AddHostedService<BackgroundWorker>());
+                });
+
     }
 }

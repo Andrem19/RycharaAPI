@@ -10,7 +10,7 @@
     public static class Variables
     {
         //General Variables
-        public static Exchanges Exchange { get; set; } = Exchanges.BYBIT1;
+        public static Exchanges Exchange { get; set; } = Exchanges.BINANCE2;
         public static string sym { get; set; } = "DOT";
         public static string symbol { get; set; } = $"{sym}USDT";
         public static string limitCandels { get; set; } = "200";

@@ -5,12 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.ComponentModel.EventBasedAsync" Version="4.3.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="RycharaLuckyBot\LoggerDB\" />
     <Folder Include="RycharaLuckyBot\InsuranceClose\" />
     <Folder Include="RycharaLuckyBot\GetKlines\" />
     <Folder Include="RycharaLuckyBot\OrdersLogic\" />

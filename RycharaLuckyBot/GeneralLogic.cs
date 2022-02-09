@@ -1,12 +1,16 @@
-﻿using System.Threading.Tasks;
+﻿using RycharaAPI.RycharaLuckyBot.LoggerDB;
+using RycharaAPI.RycharaLuckyBot.Settings;
+using System;
+using System.Threading.Tasks;
 
 namespace RycharaAPI.RycharaLuckyBot
 {
     public class GeneralLogic
     {
-        public static async Task Process()
+        public static async Task Process(Guid guid, int num, string name)
         {
-            System.Console.WriteLine("I'm working....");
+            
+            Console.WriteLine($"{num}-I'm working.... {guid}");
             //Проверка есть ли открытая позиция
 
             //Запрос свечей и определение сигнала
